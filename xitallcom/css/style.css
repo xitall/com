@@ -1,0 +1,422 @@
+/*--start-index--*/
+/*--banner-starts--*/
+.banner {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+/*内容样式*/
+
+.slide1 {
+	background: #fafafa url(../images/banner/1.png) no-repeat 50% 70%;
+	background-size: auto 38%;
+}
+
+.slide1 .title {
+	text-align: center;
+	margin-top: 120px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #333;
+}
+
+.slide2 {
+	background: #222 url(../images/banner/2.png) no-repeat center 105%;
+	background-size: auto 80%;
+}
+
+.slide2 .title {
+	font-size: 32px;
+	color: #ddd;
+	padding-top: 350px;
+	text-align: center;
+}
+
+
+.slide3 {
+	background: #fafafa url(../images/banner/3.png) no-repeat center 65%;
+	background-size: auto 70%;
+}
+
+.slide3 .title {
+	text-align: center;
+	margin-top: 60px;
+	font-size: 18px;
+	font-weight: normal;
+}
+.slidelink{
+	width: 100%;
+    height: 100%
+}
+
+.goodslist {
+	padding: 1rem;	
+}
+.newslist {
+	padding:1rem 0;
+	background: #f4f4f4;
+	border-top:1px solid #e5e5e5; 
+}
+
+/*--start-about--*/
+
+#about{
+    margin: 0 auto;
+    text-align: center;
+}
+.about-logo{
+	width: 25rem;
+}
+
+
+.logo-bg{
+    margin: 50px auto;	
+    padding: 15px;
+    width: 240px;
+    height: 240px;
+	background: #444;
+	border: 5px solid #999;
+	border-radius: 120px;
+	box-shadow: 0 0 20px rgba(0,0,0,.4);
+	text-align:center;
+}
+.logo-bg i{
+	display: block;
+	border: 1px dotted #999;
+	padding: 40px;
+	border-radius: 120px;
+	font-size: 120px;
+	color: #999;
+}
+
+
+
+/*--start-contact--*/
+.contact {
+	padding: 5rem 0;
+}
+.contact li {
+	margin:5rem 0 3rem;
+	text-align: center;
+	float: left;
+	width: 25%;
+	display: inline-block;
+}
+
+/*--start-join--*/
+#job{
+	padding: 2rem 2rem 7rem;
+}
+.join-box {
+width: 100%;
+border-radius: 5px;  
+}
+.job-title,.job-list {	
+width: 100%;
+border-bottom:1px solid #e5e5e5;
+padding:0; 
+margin: 0;			
+}
+.job-title li{
+font-weight: 500;}
+
+.job-list li,.job-title li {
+ display: inline-block;	
+ padding: 1.5rem 0;	
+ width: 30%;
+}	
+.job-list span {
+ display: inline-block;	
+ padding: 1.5rem 0;	
+ float: right;
+}	
+.job-detail{
+	display: none;
+}
+.apply button{
+width: unset;}
+
+/*--start-logo--*/
+.black-box {
+	background: #333;
+	padding: 3rem;
+}
+.black-box p{
+	color: #999;
+}
+
+.white-box {
+	background: #fafafa;
+	padding: 3rem;
+}
+.graph{
+	width: 40%;
+	height: auto;
+	margin: 3rem 0;
+}
+
+/*--start-products--*/
+#products{
+	text-align: center;
+}
+.filter .filter-tag#all:checked ~ .nav-bar .container .tag[for="all"],
+.filter .filter-tag#jacket:checked ~ .nav-bar .container .tag[for="jacket"],
+.filter .filter-tag#pants:checked ~ .nav-bar .container .tag[for="pants"],
+.filter .filter-tag#shoes:checked ~ .nav-bar .container .tag[for="shoes"],
+.filter .filter-tag#accessories:checked ~ .nav-bar .container .tag[for="accessories"]{
+  color: #444;
+  border-bottom-color: #444;
+}
+.filter .filter-tag#jacket:checked ~ .filter-body .filter-item:not([data-tag~="jacket"]),
+.filter .filter-tag#pants:checked ~ .filter-body .filter-item:not([data-tag~="pants"]),
+.filter .filter-tag#shoes:checked ~ .filter-body .filter-item:not([data-tag~="shoes"]),
+.filter .filter-tag#accessories:checked ~ .filter-body .filter-item:not([data-tag~="accessories"]) {
+  display: none;
+}
+
+.filter .filter-body {
+padding: 5rem 1rem;	
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+/*--start--single-*/
+.single-top-left {
+	float: left;
+	width: 500px;
+	height: 500px;
+	margin: 5rem 0 1rem 0;
+	border: 1px solid #e0e0e0;
+	padding:0;
+	overflow: hidden;
+	}
+
+.swiper-slide img{
+  width: 100%;
+}
+	.single-top-right {
+        float: left;
+		    margin: 12% 5% 0;
+	}
+
+.details-left-info h4 {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.item-price {
+	display: block;
+	margin: 0 0 4rem;
+	color: #f84545;
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
+#gray{
+	background: #fafafa;
+}
+
+.details {
+    display: block;
+    text-align: center;
+}
+
+
+.details h3 {
+	padding: 3rem 0 0 0;	
+}
+.details p {
+	max-width: 40em;
+	margin: 1em auto;	
+}
+.details img {
+width: 70%;
+padding:2rem;
+}
+
+
+.details ul li{
+display: inline-block;
+width: 32%
+}
+
+
+.specs{
+	padding: 2rem 0 2rem;
+}
+.specs h3{
+	font-weight: 400;
+}
+.specs span{
+	padding: 0 30px 0 0;
+}
+
+.size-table{
+	border-top:1px solid #e5e5e5;
+	padding: 2rem 0 0;
+}
+.wash{
+	border-top:1px solid #e5e5e5;
+	padding: 2rem 0;
+}
+.maintain{
+	border-top:1px solid #e5e5e5;
+	padding: 2rem 0;
+}
+.wash-list {
+	padding: 1rem 0;
+}
+.wash-list li{
+  font-size: 4rem;
+  color: #777;
+	float: left;
+	text-align: center;
+  display: block;
+  padding-right: 3.5rem;
+}
+.wash-list li:last-child {
+  padding-right: 0;
+}
+.wash-list  p{
+	    font-size:1.2rem;
+	    color: #777;
+}
+
+/*--end-single--*/
+/*--start-legal--*/
+#legal {
+	padding: 2rem;
+}
+#legal h3{
+text-align: center;
+}
+.redline{
+	color: #f84545;
+}
+
+/*--end-legal--*/
+/*---- responsive-design -----*/
+
+@media(max-width:1024px) {
+
+	.details-left-info h3 {
+		margin: 0 0 7px;
+	}
+	
+	ul.size {
+		margin-top: 1.1em;
+	}
+}
+
+@media(max-width:768px) {	
+.slide1 {
+	background: #fafafa url(../images/banner/m1.png) no-repeat 50% 70%;
+	background-size: auto 50%;
+	height: 200px;
+}
+.slide1 .title {
+	margin-top: 120px;
+}
+.slide2 {
+	background-size: auto 80%;
+    height: 200px;
+}
+.slide3 {
+	background: #fafafa url(../images/banner/m3.png) no-repeat center 70%;
+	background-size: auto 60%;
+	height: 200px;
+}
+.slide3 .title {
+	margin-top: 120px;
+}
+
+.logo-img-box{
+	padding: 30px;
+	margin: 2em auto;
+	
+}
+.graph{
+	width: 60%;
+}
+.about-logo{
+	width: 70%;
+}
+
+.about-english li{
+	width:98%;
+	margin: 1%;
+}
+	
+.single-top-left {
+	width: 100vw;
+	border: none;
+	height: 100vw;
+	border-bottom:1px solid #e0e0e0; 
+	margin: 4rem 0 1rem 0;
+}	
+.single-top-right {
+	margin:0 5%;
+	width: 90%;
+	}
+
+.single-add,.single-buy{
+		margin: 5px auto;
+	}
+
+.single-add input[type="submit"] {
+	padding: .7em 4em;
+}
+.single-buy input[type="submit"] {
+	padding: .7em 5em;
+	margin: 0;
+}
+.specs{
+	padding: 2rem 0 1rem;
+}
+
+.contact li {
+	margin:3rem 0 1rem;
+	width: 50%;
+}
+
+	.me-one h4 {
+		text-align: center !important;
+	}
+	.details img {
+	width: 100%;
+	margin: 0;
+   }
+   .details p {
+	max-width: 20em;
+    }
+    .apply button{
+    width: 100%;}
+
+
+  }
+
+
+@media(max-width:320px) {
+
+
+.products {
+	padding: 2em 0px 0 0;
+}
+
+.skyblue li>a, .skyblue>li.showhide span {
+	font-size: 14px;
+}
+
+.single-main-left {
+	padding: 0;
+}
+
+
+.product-colors li a span {
+	width: 27px;
+	height: 27px;
+}
+}
+/*---- responsive-design -----*/
